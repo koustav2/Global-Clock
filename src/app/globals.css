@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+#day {
+  background-color: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(10px);
+}
+
+#evening {
+  background-color: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(10px);
+}
