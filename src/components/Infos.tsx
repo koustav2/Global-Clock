@@ -50,12 +50,12 @@ const Infos = () => {
         absolute
         bottom-0
         z-50
-        h-[355px]
+        h-[300px]
         w-full
         data-[dayPeriod='Afternoon']:text-darker-gunpowder-gray
         data-[dayPeriod='Evening']:text-white
         data-[dayPeriod='Morning']:text-darker-gunpowder-gray
-        sm:h-[300px]
+        sm:h-[330px]
         md:h-[340px]
       "
         variants={variants}

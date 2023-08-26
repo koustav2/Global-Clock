@@ -31,7 +31,6 @@ const Location = () => {
         flex
         w-full
         justify-between
-        max-md:flex-col
         max-md:gap-y-16
         md:items-center
       "

@@ -39,7 +39,7 @@ const Quotes = () => {
       data-infos-actived={infosContainer}
       className="
           z-50
-          mt-14
+          mt-6
           h-auto
           w-auto
           data-[infos-actived=true]:hidden
