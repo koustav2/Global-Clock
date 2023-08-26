@@ -164,39 +164,6 @@ const Infos = () => {
                   </section>
                 )
           }
-          <hr className="h-[252px] w-[1px] bg-darker-gunpowder-gray opacity-25 max-sm:hidden" />
-
-          {
-            isLoading ?
-              <ClockLoader
-                size={60}
-                color="#ada8a8"
-                className=" z-50"
-                speedMultiplier={1}
-              /> :
-              isError ? <p>{error?.message}</p> :
-                (
-                  <section className="flex flex-col gap-2 max-sm:mt-2 sm:gap-[30px]">
-                    <div className="max-sm:flex max-sm:justify-between">
-                      <span className="text-[13px] uppercase leading-[28px] tracking-[2.6px] lg:text-[15px] lg:tracking-[3px]">
-                        Wind Direction
-                      </span>
-                      <h2 className="text-[16px] font-bold mobile:text-[20px] sm:text-[40px] lg:text-5xl">
-                        {weather.wind_degree} <span className='text-sm'>{weather.wind_dir}</span>
-                      </h2>
-                    </div>
-
-                    <div className="max-sm:flex max-sm:justify-between">
-                      <span className=" text-[13px] uppercase leading-[28px] tracking-[2.6px] lg:text-[15px] lg:tracking-[3px]">
-                        Visibilty
-                      </span>
-                      <h2 className="text-[16px] font-bold mobile:text-[20px] sm:text-[40px] lg:text-5xl">
-                        {weather.vis_km} km
-                      </h2>
-                    </div>
-                  </section>
-                )
-          }
         </div>
       </motion.section>
     </NoSsr>
