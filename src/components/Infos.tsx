@@ -55,7 +55,7 @@ const Infos = () => {
         data-[dayPeriod='Afternoon']:text-darker-gunpowder-gray
         data-[dayPeriod='Evening']:text-white
         data-[dayPeriod='Morning']:text-darker-gunpowder-gray
-        sm:h-[390px]
+        sm:h-[300px]
         md:h-[340px]
       "
         variants={variants}
